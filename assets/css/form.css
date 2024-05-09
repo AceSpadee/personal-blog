@@ -1,0 +1,62 @@
+:root {
+    --light: #ffffff;
+    --lighttext: #000000;
+    --dark: #000000;
+    --darktext: #ffffff;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--light);
+    color: var(--lighttext);
+  }
+
+  body#dark {
+    background-color: var(--dark);
+    color: var(--darktext);
+  }
+  
+  header, footer {
+    background-color: #323235;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #container {
+    display: flex;
+    height: 80vh;
+  }
+  
+  .box {
+    flex: 1;
+    border: 2px solid #323235;
+    padding: 20pt;
+  }
+
+  label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    width: 50%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
