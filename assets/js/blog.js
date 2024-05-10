@@ -3,7 +3,7 @@ const closeButton = document.querySelector("#back");
 const body = document.querySelector('body');
 let mode = 'light';
 
-//on click listener for theme button to switch between darkmode and lightmode
+//on click listen for theme button to switch between darkmode and lightmode
 themeBtn.forEach(btn => {
   btn.addEventListener('click', function() {
     if (mode === 'dark') {

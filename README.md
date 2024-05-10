@@ -2,7 +2,7 @@
 Personal blog with lightmode and darkmode
 
 # Site-link
-
+https://acespadee.github.io/personal-blog/
 
 ## Description
 Required user story:
@@ -15,4 +15,4 @@ Blog preview:
 ![screenshot](./assets/images/blogpage.png)
 
 Content page preview:
-![screenshot](./assets/images/conentpage.png)
+![screenshot](./assets/images/contentpage.png)
